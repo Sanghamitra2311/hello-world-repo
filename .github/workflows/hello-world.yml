@@ -1,8 +1,8 @@
 name: Hello World
 on: push
 jobs:
-  build:
+  hello-job:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Text
-        run: echo "Hello, world!"
+        run: 'echo "Hello, world!"'
